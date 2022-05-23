@@ -40,6 +40,8 @@ docker-compose up
 
 - [Jose Emilio Labra Gayo] LT (http://labra.weso.es)
 - Luis Baeza
+- Eduardo Olivo
+- Roberto SIlva
 
 ## Credits
 
