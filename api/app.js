@@ -65,4 +65,5 @@ app.get('/api/deportes', (req, res) => {
   })
 });
 
+app.delete()
 module.exports = app;
