@@ -25,7 +25,7 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "saw214" # Must exist and be unique in Heroku
-          heroku_email: "eduardo.olivo.m@gmail.com"
+          heroku_email: "jelabra@gmail.com"
           usedocker: true
           docker_build_args: |
             API_URI
