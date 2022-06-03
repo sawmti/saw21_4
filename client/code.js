@@ -53,10 +53,7 @@ function mostrar() {
     console.log("item",item)
 }
 
-function seter() {
-    localStorage.setItem('item','hola')
-}
 
 function borrar(){
-localStorage.removeItem('item')
+localStorage.removeItem('item');
 }
