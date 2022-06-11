@@ -50,7 +50,7 @@ function fillEntities() {
          btnadd.id=element.deporte.value;
          btniadd = document.createElement('i');
          btniadd.classList.add("far", "fa-eye");
-         btniadd.innerHTML = " AGREGAR ";
+         btniadd.innerHTML = " AGREGAR &nbsp; ";
          btnadd.appendChild(btniadd);
 
          btndelete = document.createElement("button");
@@ -60,7 +60,7 @@ function fillEntities() {
          btndelete.id=element.deporte.value;
          btnidelete = document.createElement('i');
          btnidelete.classList.add("far","fa-trash-alt"); 
-         btnidelete.innerHTML =" ELIMINAR ";
+         btnidelete.innerHTML =" ELIMINAR &nbsp; ";
          btndelete.appendChild(btnidelete);
 
          tdbtn.appendChild(btnadd);
